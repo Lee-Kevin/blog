@@ -11,7 +11,7 @@ title                    : "Maker 营地"
 title_separator          : "-"
 name                     : &name "李建凯/Kevin Lee"
 description              : &description "This is a test blog."
-url                      : "http://localhost:4000"
+url                      : "http://diyjob.cc" #"http://localhost:4000"
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -151,10 +151,10 @@ kramdown:
 
 # Collections
 collections:
-  tech:
+  docs:
     output: true
     permalink: /:collection/:path/
-  docs:
+  tech:
     output: true
     permalink: /:collection/:path/
   recipes:
@@ -204,7 +204,7 @@ defaults:
         nav: "docs"
   # _tech
   - scope:
-      path: "/tech"
+      path: ""
       type: tech
     values:
       layout: single
