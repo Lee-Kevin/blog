@@ -4,7 +4,7 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-weibo'></i> Install Now"
+  cta_label: "<i class='fa fa-download'></i> Install Now"
   cta_url: "/docs/quick-start-guide/"
   caption:
 excerpt: '这里是Maker训练营的营地，将会定期跟大家分享最炫最酷的应用与文章<br/><br/><br /> <small><a href="https://diyjob.cc">Maker训练营</a></small>'

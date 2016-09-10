@@ -151,10 +151,10 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  tech:
     output: true
     permalink: /:collection/:path/
-  tech:
+  docs:
     output: true
     permalink: /:collection/:path/
   recipes:
@@ -204,7 +204,7 @@ defaults:
         nav: "docs"
   # _tech
   - scope:
-      path: ""
+      path: "/tech"
       type: tech
     values:
       layout: single
