@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "营地"
+title                    : "月狼亭"
 title_separator          : "-"
 name                     : &name "李建凯/Kevin Lee"
 description              : &description "This is a test blog."
@@ -204,8 +204,8 @@ defaults:
       layout: single
       read_time: false
       author_profile: false
-      share: false
-      comments: false
+      share: true
+      comments: true
       sidebar:
         nav: "tech"
   # _reading
@@ -215,6 +215,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      comments: true
       share: true
   # _project
   - scope:
@@ -223,6 +224,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      comments: true
       share: true
 
 # Sass/SCSS

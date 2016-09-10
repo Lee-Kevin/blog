@@ -11,8 +11,8 @@ excerpt: '恒者行远  思者常新'
 feature_row:
   - image_path: mm-customizable-feature.png
     alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "模板"
+    excerpt: "这是模板测试<br/>"
     url: "/docs/configuration/"
     btn_label: "Learn More"
   - image_path: mm-responsive-feature.png
@@ -28,10 +28,8 @@ feature_row:
     url: "/docs/license/"
     btn_label: "Learn More"
 
-intro:
-  - excerpt: ' Hello Get notified when I add new stuff &nbsp; [<i class="fa fa-wechat"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
+
 ---
 
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
