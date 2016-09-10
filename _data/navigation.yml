@@ -24,17 +24,14 @@ main:
   - title: "技术笔记"
     url: /tech/quick-start-guide/
 
+  - title: "项目分享"
+    url: /project/
+
   - title: "读书有感"
     url: /reading/
 
-  - title: "Sample Posts"
+  - title: "生活随笔"
     url: /year-archive/
-
-  - title: "Sample Collections"
-    url: /collection-archive/
-
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
 
   - title: "关于博主"
     url: /about/

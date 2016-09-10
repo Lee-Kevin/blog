@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Maker 营地"
+title                    : "营地"
 title_separator          : "-"
 name                     : &name "李建凯/Kevin Lee"
 description              : &description "This is a test blog."
-url                      : "http://diyjob.cc" #"http://localhost:4000"
+url                      : "http://localhost:4000" #"http://diyjob.cc" 
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -69,14 +69,14 @@ author:
   bio              : "为做一个有逼格的程序猿奋斗终身"
   location         : "Shenzhen, China"
   email            : lidreamer@163.com
-  uri              : "https://diyjob.cc/blog"
+  uri              : "http://diyjob.cc/blog"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "https://www.facebook.com/profile.php?id=100009429047579"
+  facebook         : "profile.php?id=100009429047579"
   foursquare       :
-  github           : 
+  github           : "kevin-lee"
   google_plus      :
   keybase          :
   instagram        : 
@@ -89,7 +89,7 @@ author:
   tumblr           :
   twitter          : 
   vine             :
-  weibo            : "http://weibo.com/u/2032219167"
+  weibo            : "u/2032219167"
   xing             :
   youtube          :
 
@@ -157,16 +157,10 @@ collections:
   tech:
     output: true
     permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-  pets:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   reading:
+    output: true
+    permalink: /:collection/:path/
+  project:
     output: true
     permalink: /:collection/:path/
 
@@ -214,36 +208,18 @@ defaults:
       comments: false
       sidebar:
         nav: "tech"
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
   # _reading
   - scope:
       path: ""
       type: reading
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  # _project
+  - scope:
+      path: ""
+      type: project
     values:
       layout: single
       author_profile: false
