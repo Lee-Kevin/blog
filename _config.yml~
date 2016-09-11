@@ -11,7 +11,7 @@ title                    : "月狼亭"
 title_separator          : "-"
 name                     : &name "李建凯/Kevin Lee"
 description              : &description "This is a test blog."
-url                      : "http://localhost:4000" #"http://diyjob.cc" 
+url                      : "http://localhost:4000" # "http://diyjob.cc" #
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -45,9 +45,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "jiankai.li"
+  username               : &twitter "Jiankai_Li"
 facebook:
-  username               : &facebook "Kevin Lee"
+  username               : &facebook "profile.php?id=100009429047579"
   app_id                 :
   publisher              :
 og_image                 : "site-logo.png" # Open Graph/Twitter default site image
@@ -76,7 +76,7 @@ author:
   flickr           :
   facebook         : "profile.php?id=100009429047579"
   foursquare       :
-  github           : "kevin-lee"
+  github           : "lee-kevin"
   google_plus      :
   keybase          :
   instagram        : 
