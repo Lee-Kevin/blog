@@ -114,6 +114,8 @@ tech:
 
   - title: Linux有关
     children:
+      - title: "开机启动脚本"  
+        url: /tech/startup-script/
       - title: "Linux恼人的命令"
         url: /tech/test/
 
