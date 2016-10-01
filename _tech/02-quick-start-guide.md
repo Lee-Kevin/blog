@@ -1,6 +1,6 @@
 ---
 title: "Test"
-permalink: /tech/quick-start-guide/
+permalink: /tech/test/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 modified: 2016-09-10T22:40:02-04:00
 redirect_from:
@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 {% include toc %}
 
-In fact this is just a test
+Kevin Lee
 
 Minimal Mistakes has been developed to be 100% compatible with hosting a site on [GitHub Pages](https://pages.github.com/). To get up and running with a new GitHub repository quickly, follow these steps or jump ahead to the [full installation guide]({{ base_path }}/docs/installation/).
 
