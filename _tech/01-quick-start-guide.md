@@ -1,14 +1,14 @@
 ---
 title: "Test"
-permalink: /tech/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-modified: 2016-09-10T22:40:02-04:00
-redirect_from:
-  - /theme-setup/
+permalink: /tech/start/
+
+modified: 2016-09-9T22:40:02-04:00
 ---
 
 {% include base_path %}
 {% include toc %}
+
+从此开始写技术笔记
 
 In fact this is just a test
 

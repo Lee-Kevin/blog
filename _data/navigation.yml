@@ -22,7 +22,7 @@ foo:
 # main links links
 main:
   - title: "技术笔记"
-    url: /tech/quick-start-guide/
+    url: /tech/start/
 
   - title: "项目分享"
     url: /project/
