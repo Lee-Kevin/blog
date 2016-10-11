@@ -116,6 +116,8 @@ tech:
     children:
       - title: "开机启动脚本"  
         url: /tech/startup-script/
+      - title: "linux下pycups安装"
+        url: /tech/debian-pycups/ 
       - title: "Linux恼人的命令"
         url: /tech/test/
 
