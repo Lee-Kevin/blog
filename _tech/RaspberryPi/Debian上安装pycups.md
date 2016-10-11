@@ -100,6 +100,7 @@ duplex ipp://192.168.1.1:631/printers/duplex
 HP-LaserJet-6MP ipp://192.168.1.1:631/printers/HP-LaserJet-6MP
 EPSON-Stylus-D78 usb://EPSON/Stylus%20D78
 ```
+
 ## 总结
 知识点很简单，但还是写下来了，一是逼迫自己养成写技术博客的习惯，二是确实自己在linux下调试安装的经验缺乏，需要多多积累。
 
