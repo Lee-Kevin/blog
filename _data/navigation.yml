@@ -119,11 +119,8 @@ tech:
       - title: "linux下pycups安装"
         url: /tech/debian-pycups/ 
       - title: "SD卡启动程序" 
-        url:/tech/sd-startup/
-      - title: "Linux恼人的命令"
-        url: /tech/test/
-        
-        
+        url: /tech/sd-startup/
+
 
   - title: Python编程积累
     children:
